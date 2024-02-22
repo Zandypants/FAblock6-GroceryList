@@ -3,57 +3,66 @@
         <title>Groceries for Zander</title>
         <link rel = "stylesheet" href="./styles.css">
         <style>
-            section {
-                display: inline-block;
-                width: 30%;
+            img {
+                height: 125px;
+                max-height: 400px;
+                vertical-align: top;
+                padding: 5px;
+                margin: 0 20px;
             }
         </style>
     </head>
     <body>
         <header>
-            <h1>Zander's Grocery List</h1>
+            <h1 style = "width: 400px; text-align: center;">Zander's Grocery List</h1>
         </header>
     </body>
 
     <!-- Pantry -->
     <article>
-        <h2>Pantry Items</h2>
+        <h2 class="categoryHeader roundedCorner">Pantry Items</h2>
         <section>
-            <h3>Canned Goods</h3>
-            <ol>
-                <li>Curry</li>
-                <li>Pasta Sauce</li>
-                <li>Green Beans</li>
-            </ol>
-        </section>
-        <section>
-            <h3>Dry Goods</h3>
-            <ol>
-                <li>Rice</li>
-                <li>Pasta</li>
-                <li>SPAM</li>
-            </ol>
+            <section class = "listBlock roundedCorner">
+                <h3>Canned</h3>
+                <ol>
+                    <li>Curry</li>
+                    <li>Pasta Sauce</li>
+                    <li>Green Beans</li>
+                </ol>
+            </section>
+            <section class = "listBlock roundedCorner">
+                <h3>Dried</h3>
+                <ol>
+                    <li>Rice</li>
+                    <li>Pasta</li>
+                    <li>SPAM</li>
+                </ol>
+            </section>
+            <img src = "pantry.jpg" class = "roundedCorner">
         </section>
     </article>
 
     <!-- Fridge -->
     <article>
-        <h2>Fridge Items</h2>
+        <h2 class="categoryHeader roundedCorner">Fridge Items</h2>
         <section>
-            <h3>Veggies</h3>
-            <ul>
-                <li>Mushrooms</li>
-                <li>Bell Peppers</li>
-                <li>Lettuce</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Drinks</h3>
-            <ul>
-                <li>Milk</li>
-                <li>Orange Juice</li>
-                <li>Beer</li>
-            </ul>
+            <section class = "listBlock roundedCorner">
+                <h3>Veggies</h3>
+                <ul>
+                    <li>Mushrooms</li>
+                    <li>Bell Peppers</li>
+                    <li>Lettuce</li>
+                </ul>
+            </section>
+            <section class = "listBlock roundedCorner">
+                <h3>Drinks</h3>
+                <ul>
+                    <li>Milk</li>
+                    <li>Orange Juice</li>
+                    <li>Beer</li>
+                </ul>
+            </section>
+            <img src = "fridge.jpg">
         </section>
     </article>
 </html>
