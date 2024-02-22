@@ -8,11 +8,11 @@ h3 {
 
 .categoryHeader {
     background-color: #F5F0E9;
-    width: 400px;
+    width: 410px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    /* border-radius: 5% / 50%; */
+    margin-left: 5px;
 }
 
 .listBlock {
@@ -20,14 +20,9 @@ h3 {
     display: inline-block;
     width: 200px;
     vertical-align: top;
-    /* margin: 1%; */
+    margin: 0px 5px;
 }
 
 .roundedCorner {
     border-radius: 20px;
 }
-
-/* .column {
-    display: inline-block;
-    width: 30%;
-} */
